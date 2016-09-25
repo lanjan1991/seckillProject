@@ -22,6 +22,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * Controler控制器
+ * @author Administrator
+ *
+ */
 @Controller
 @RequestMapping("/seckill_1") // url:/模块/资源/{id}/细分  /seckill/list
 public class SeckillController {
